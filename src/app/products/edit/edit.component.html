@@ -1,0 +1,36 @@
+<div class="container text-center">
+    <!-- heading -->
+    <div>
+        <h2>Edit Products</h2>
+    </div>
+    <!-- form -->
+    <div >   
+        <form (ngSubmit)="update()"  class="container w-50 " action="">
+
+            <input [(ngModel)]="pdata.productName" type="text" class="form-control mb-3" placeholder="Product Name" id="p2"  name="pn2">
+
+            <input [(ngModel)]="pdata.categoryId"  type="text" class="form-control mb-3" placeholder="Category Id" id="p3"  name="pn3  ">
+
+            <input [(ngModel)]="pdata.description" type="text" class="form-control mb-3" placeholder="Description" id="p4"  name="pn4">
+
+            <input [(ngModel)]="pdata.price"  type="text" class="form-control mb-3" placeholder="Price" id="p5"  name="pn5">
+
+            <input [(ngModel)]="pdata.productImage" type="text" class="form-control mb-3" placeholder="Product Image" id="p6"  name="pn6">
+
+            <input [(ngModel)]="pdata.rating"  type="text" class="form-control mb-3" placeholder="Rating" id="p7"  name="pn7">
+
+            <input [(ngModel)]="pdata.review"  type="text" class="form-control mb-3" placeholder="Review" id="p8"  name="pn8">
+
+            <input [(ngModel)]="pdata.is_availiable"  type="text" class="form-control mb-3" placeholder="Is Available" id="p10"  name="pn10">
+
+            <!-- butoon -->
+
+            <button  type="submit" class="btn btn-outline-success mb-3">Edit product</button>
+
+        </form>
+
+    </div>
+
+
+
+</div>

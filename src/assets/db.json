@@ -1,0 +1,137 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Black BatMan T-Shirt",
+      "categoryId": 1,
+      "description": "Step into the shadows with our Full Sleeve Batman Printed T-Shirt, where style meets Gotham's iconic vigilante. Embrace the darkness in comfort and flair as the Caped Crusader graces your every move. Crafted with precision, this full-sleeve tee is more than an outfit; it's a statement. Let Batman's silhouette become an extension of your own strength and resilience. Elevate your wardrobe and join the league of true fans with our Full Sleeve Batman Printed T-Shirt – because heroes belong on sleeves",
+      "price": 700,
+      "productImage": "https://i.postimg.cc/mkMMPzKb/51-Yek-VLx-Ti-L-UL1440.jpg",
+      "rating": 4.5,
+      "review": 20,
+      "warrenty": 1,
+      "is_availiable": true
+    },
+    {
+      "id": 2,
+      "productName": "White Mugs with WorldCup printed",
+      "categoryId": 2,
+      "description": "Unleash your passion for football with our exclusive Messi Printed Mug in pristine white. Sip your favorite beverage in the company of the legendary Messi, whose image graces this limited edition mug. The sleek white backdrop enhances the iconic image, creating a stylish and collectible piece for every football enthusiast. Elevate your coffee breaks or gift this masterpiece to a fellow fan. Experience the thrill of the game every time you lift our Messi Printed Mug — where art meets your daily ritual",
+      "price": 400,
+      "productImage": "https://i.postimg.cc/rsNQbPgX/51nb-Wek-L62-L.jpg",
+      "rating": 4.1,
+      "review": 27,
+      "is_availiable": true
+    },
+    {
+      "id": 3,
+      "productName": "Yelow Flower Coloured Printed Phone Cases",
+      "categoryId": 3,
+      "description": "Transform your phone into a vibrant masterpiece with our Rainbow Coloured Printed Phone Case. Express your personality in every hue with this eye-catching and durable case. The vivid rainbow design adds a touch of joy to your device, ensuring you carry a burst of color wherever you go. Crafted for both style and protection, this case is the perfect fusion of fashion and function. Elevate your phone game and make a statement with our Rainbow Coloured Printed Phone Case today!",
+      "price": "427",
+      "productImage": "https://i.postimg.cc/Prt4Nhd1/04.png",
+      "rating": 4.3,
+      "review": 29,
+      "is_availiable": true
+    },
+    {
+      "id": 4,
+      "productName": "Red Arsenal Printed T-Shirt",
+      "categoryId": 1,
+      "description": "Make a bold statement with our Red Arsenal Oversized T-Shirt. Immerse yourself in team spirit with this vibrant red tee, designed for comfort and style. The oversized fit adds a contemporary edge to your look, making it perfect for game days or casual outings. Embrace the passion of the Gunners with every wear. Whether you're at the stadium or on the streets, stand out in our Red Arsenal Oversized T-Shirt – because true fans wear their pride in every size.",
+      "price": 800,
+      "productImage": "https://i.postimg.cc/cJ2rf1R6/61-Vu-RG6-Svo-L-UL1440.jpg",
+      "rating": 3.9,
+      "review": 50,
+      "is_availiable": true
+    },
+    {
+      "id": 5,
+      "productName": "Mug For Your Mom",
+      "categoryId": 2,
+      "description": "Sip warmth and cherish every moment with our 'Mom' Printed Mug. This elegant white mug is more than a vessel for your favorite brew; it's a heartfelt tribute to the queen of your heart. Adorned with the simple yet powerful word 'Mom,' each sip becomes a celebration of love and gratitude. Whether it's morning coffee or an evening tea, let this mug be a constant reminder of the extraordinary woman who fills your life with endless love. Gift her a daily dose of appreciation with our 'Mom' Printed Mug — where every sip is a sweet reminder of the warmth she brings into your world",
+      "price": 300,
+      "productImage": "https://i.postimg.cc/NMwnzmYX/51-Rs-XFXo9g-L-SL1000.jpg",
+      "rating": 4.9,
+      "review": 40,
+      "is_availiable": false
+    },
+    {
+      "id": 6,
+      "productName": "Pink-Black Phone Case",
+      "categoryId": 3,
+      "description": "Guard your privacy with our 'Don't Touch My Phone' Printed Phone Case. This sleek and protective case not only shields your device but also sends a clear message to potential intruders. The bold statement is printed with precision on a durable case, combining style with functionality. Embrace the power of expression and keep your personal space intact. Secure your device in style with our 'Don't Touch My Phone' Printed Phone Case – because your privacy deserves a statement.",
+      "price": 400,
+      "productImage": "https://i.postimg.cc/N0N20qff/Tropical-Flower-Slim-Matte-Phone-Case-cover-Shop-On-Cli-Q-9287.jpg",
+      "rating": 4.2,
+      "review": 20,
+      "is_availiable": false
+    },
+    {
+      "id": 7,
+      "productName": "Grey Wild Sou; T-shirts",
+      "categoryId": 1,
+      "description": "Elevate your style with our Grey 'Wild Soul' Printed T-Shirt. Embrace the untamed spirit within with this unique and comfortable tee. The subtle grey tone provides a versatile backdrop for the expressive 'Wild Soul' print, creating a perfect blend of style and individuality. Crafted for those who dare to be different, this shirt is a statement of your free-spirited nature. Wear your wild soul proudly with our Grey 'Wild Soul' Printed T-Shirt – where fashion meets untamed spirit.",
+      "price": 450,
+      "productImage": "https://i.postimg.cc/5y34KfCB/61x-XO4-SSio-L-UL1500.jpg",
+      "rating": 4.9,
+      "review": 10,
+      "is_availiable": true
+    },
+    {
+      "id": 8,
+      "productName": "Holi Mugs",
+      "categoryId": 2,
+      "description": "Add a splash of color to your sips with our Holi Printed Mugs. Celebrate the festival of joy and vibrancy with these specially crafted mugs featuring lively Holi-inspired designs. Each sip becomes a moment of festivity, bringing the spirit of Holi to your daily routine. Embrace the hues of happiness with our Holi Printed Mugs – because every day should feel like a celebration",
+      "price": 1000,
+      "productImage": "https://i.postimg.cc/N0RRGP2K/1324587722.jpg",
+      "rating": 3,
+      "review": 70,
+      "is_availiable": true
+    },
+    {
+      "id": 9,
+      "productName": "Blue-red SeaPhone Case",
+      "categoryId": 3,
+      "description": "Dress your device in art with our Painted Phone Covers. Each cover is a canvas of creativity, featuring hand-painted designs that transform your phone into a masterpiece. Express your unique style with a burst of color and intricate strokes. Not just a cover, but a statement piece that reflects your individuality. Elevate your phone game with our Painted Phone Covers – where protection meets personalized artistry.",
+      "price": 1200,
+      "productImage": "https://i.postimg.cc/Qxj421Pg/tough-phone-case-hero.jpg",
+      "rating": 4.9,
+      "review": 510,
+      "is_availiable": true
+    },
+    {
+      "id": 10,
+      "productName": "Marvel T-shirts",
+      "categoryId": 1,
+      "description": "Unleash your inner superhero with our Marvel Printed T-Shirts. Dive into the Marvel Universe with iconic characters and bold designs that bring your favorite comic book heroes to life. Crafted with quality and precision, these shirts aren't just clothing; they're a statement of fandom. Whether you're Team Avengers, X-Men, or Spidey, find your superhero style in our Marvel Printed T-Shirts – where fashion meets the extraordinary.",
+      "price": 1900,
+      "productImage": "https://i.postimg.cc/gJ01bRrB/71-Ne-U7k0e-RL-UL1500.jpg",
+      "rating": 4.9,
+      "review": 520,
+      "is_availiable": true
+    },
+    {
+      "id": 11,
+      "productName": "Tom & Jerry Mugs",
+      "categoryId": 2,
+      "description": "Sip joy from our classic Tom and Jerry White Mugs. Immerse yourself in nostalgia with every sip as these beloved characters bring back fond memories. The timeless black-and-white design on pristine white ceramic adds a touch of vintage charm to your daily routine. Whether you're a fan or looking for the perfect gift, our Tom and Jerry White Mugs are a delightful addition to any collection. Embrace the playfulness of these iconic characters with each coffee break – because some things never go out of style.",
+      "price": "805",
+      "productImage": "https://i.postimg.cc/8zNSn7dx/Amazing-piece-of-Cartoon-Printed-Mug-2.jpg",
+      "rating": 3.9,
+      "review": 650,
+      "is_availiable": true
+    },
+    {
+      "id": "12",
+      "productName": "Black White Phone Cover",
+      "categoryId": "3",
+      "description": "Sleek and timeless, the black and white mobile cover effortlessly combines classic elegance with modern style. Its monochrome design not only exudes sophistication but also provides a sleek protective layer for your device, making a bold statement in simplicity.",
+      "price": "456",
+      "productImage": "https://i.postimg.cc/TPRmMS8p/Abstract-Designed-Marble-Print-Phone-Covers-Cases-Shop-On-Cli-Q-6190-1.png",
+      "rating": "4.1",
+      "review": "204",
+      "is_availiable": "True"
+    }
+  ]
+}

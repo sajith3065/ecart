@@ -1,0 +1,150 @@
+<!-- Header-->
+<header class="">
+  <!--  -->
+  <!-- carousel -->
+  <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel" >
+    <div class="carousel-inner">
+      <!-- carousel 1 -->
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img style="height: auto; max-height: 405px; width: 100%;" src="https://i.postimg.cc/65S7MX7Z/wallpaperflare-com-wallpaper.jpg"
+          class="d-block w-100" alt="...">
+        <!-- desc -->
+        <div  class="cl1 carousel-caption  text-start" >
+          <h1 style=" font-weight: 600; font-size: 2em; line-height: 1.2;">"<span style="font-size: 3em;">D</span>esign Your
+            Story,
+            <br> <span class="ms-5"> <span style="font-size: 3em;">W</span>ear Your Passion!"</span>
+          </h1><br>
+          <p class="text-start"></p>
+        </div>
+
+      </div>
+
+      <!-- carousel 2 -->
+      <div class="carousel-item" data-bs-interval="3000">
+        <img style="height: auto; max-height: 405px; width: 100%;" src="https://i.postimg.cc/0jW54pcn/wallpaperflare-com-wallpaper-1.jpg"
+          class="d-block w-100" alt="...">
+
+        <!-- desc -->
+        <div class="cl2 carousel-caption  text-start" >
+          <h3  style="font-size: 2em; line-height: 1.2;">
+            "<span style="font-size: 3em;  font-family: Georgia, 'Times New Roman', Times, serif;">S</span>avor
+            <br>the<br><span
+              style="font-size: 3em; font-family: Georgia, 'Times New Roman', Times, serif;">D</span>esign
+
+          </h3>
+        </div>
+        <!-- Savor the Design. -->
+      </div>
+
+      <!-- carousel 3 -->
+
+      <div class="carousel-item" data-bs-interval="3000">
+        <img style="height: auto; max-height: 405px; width: 100%;"
+          src="https://i.postimg.cc/PrmYRCzn/Colorful-Samsung-Galaxy-S20-hard-case-2-scaled.jpg" class="d-block w-100"
+          alt="...">
+
+        <!-- desc
+        <div class=" cl3 carousel-caption text-start  " >
+          <h3>
+
+            "<span style="font-size: 70px; font-family: Georgia, 'Times New Roman', Times, serif;">D</span>ress Your
+            Device: <br>
+            Phone Cases That <span
+              style="font-size: 70px; font-family: Georgia, 'Times New Roman', Times, serif;">E</span>cho <br>
+            Your <span style="font-size: 70px; font-family: Georgia, 'Times New Roman', Times, serif;">S</span>tyle!"
+
+
+
+          </h3>
+        </div> -->
+
+      </div>
+
+
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center text-white">
+            <h1 class="display-4 fw-bolder">Shop in style</h1>
+            <p class="lead fw-normal text-white-50 mb-0">With this shop hompeage template</p>
+        </div>
+    </div> -->
+</header>
+
+<!-- categorize items -->
+
+<div class="container-fluid">
+  <div class="row  text-center border" style="background-color: rgb(253, 253, 253);">
+    <div (click)="categoryProduct('')" class="col-sm-3 col-12 border">
+      <img class="imgAll" src="https://i.postimg.cc/vZDgRVtG/cp-hand2.jpg" alt="">
+      <h5>All products</h5>
+    </div>
+    <div (click)="categoryProduct('1')" class="col-sm-3 col-12 border">
+      <img class="imgAll" src="https://i.postimg.cc/g0Q0btkD/71sla-XZx-Il-L-UL1500.jpg" alt="">
+      <h5>T- shirts</h5>
+    </div>
+    <div (click)="categoryProduct('2')" class="col-sm-3 col-12 border">
+      <img class="imgAll" src="https://i.postimg.cc/t4mqFvPj/71-DAr-Ybivo-S-SL1500.jpg" alt="">
+      <h5>Mugs</h5>
+    </div>
+    <div (click)="categoryProduct('3')" class="col-sm-3 col-12 border">
+      <img class="imgAll"
+        src="https://i.postimg.cc/SscmFyPS/Stylish-Initial-Of-The-Name-Customize-Printed-Phone-Case-Cover-Shop-On-Cli-Q-6473.jpg"
+        alt="">
+      <h5>Phone cases</h5>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Section-->
+<section class="py-5">
+  <div class="container px-4 px-lg-5 mt-5">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+      <div *ngFor="let i of categoryProducts | search:searchString:'productName' " class="col mb-5">
+        <div class="card h-100">
+          <!-- Product image-->
+          <img style="height: 250px; " class="card-img-top" src="{{i.productImage}}" alt="..." />
+          <!-- Product details-->
+          <div class="card-body p-4">
+            <div class="text-center">
+              <!-- Product name-->
+              <h5 class="fw-bolder">{{i.productName}}</h5>
+              <!-- Product price-->
+              Rs {{i.price}}
+            </div>
+          </div>
+
+
+          <!-- Product actions-->
+          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+            <div class="text-center"><a class="btn btn-outline-success mt-auto"
+                href="products/view-product/{{i.id}}">View</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

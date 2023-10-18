@@ -1,0 +1,77 @@
+<div class="container text-center">
+    <!-- heading -->
+    <div>
+        <h2>Add Products</h2>
+    </div>
+    <!-- form -->
+    <div >   
+        <form (ngSubmit)="addNewProduct()" [formGroup]="addFormModel" class="container w-50 " action="">
+            <input  formControlName="id" type="text" class="form-control mb-3" placeholder="Id" id="p1"  name="pn1">
+            <!-- reminder -->
+            <div *ngIf="this.addFormModel.get('id')?.errors&&this.addFormModel.get('id')?.touched">
+                <p class="text-danger text-start">Invalid Id</p>
+            </div>
+
+            <input formControlName="productName" type="text" class="form-control mb-3" placeholder="Product Name" id="p2"  name="pn2">
+            <!-- reminder -->
+            <div *ngIf="this.addFormModel.get('productName')?.errors&&this.addFormModel.get('productName')?.touched">
+                <p class="text-danger text-start">Only Charcters/Numbers/Special Charcters</p>
+            </div>
+
+
+            <input formControlName="categoryId" type="text" class="form-control mb-3" placeholder="Category Id" id="p3"  name="pn3  ">
+            <!-- reminder -->
+            <div *ngIf="this.addFormModel.get('categoryId')?.errors&&this.addFormModel.get('categoryId')?.touched">
+                <p class="text-danger text-start">Only Numbers Allowed</p>
+            </div>
+
+
+            <input formControlName="description" type="text" class="form-control mb-3" placeholder="Description" id="p4"  name="pn4">
+            <!-- reminder -->
+            <div *ngIf="this.addFormModel.get('description')?.errors&&this.addFormModel.get('description')?.touched">
+                <p class="text-danger text-start">Please Describe Your product</p>
+            </div>
+
+
+            <input formControlName="price" type="text" class="form-control mb-3" placeholder="Price" id="p5"  name="pn5">
+            <!-- reminder -->
+            <div *ngIf="this.addFormModel.get('price')?.errors&&this.addFormModel.get('price')?.touched">
+                <p class="text-danger text-start">Only Numbers Allowed</p>
+            </div>
+
+
+            <input formControlName="productImage" type="text" class="form-control mb-3" placeholder="Product Image" id="p6"  name="pn6">
+            <!-- reminder -->
+            <div *ngIf="this.addFormModel.get('productImage')?.errors&&this.addFormModel.get('productImage')?.touched">
+                <p class="text-danger text-start">Please provide proper Link</p>
+            </div>
+
+            <input formControlName="rating" type="text" class="form-control mb-3" placeholder="Rating" id="p7"  name="pn7">
+            <!-- reminder -->
+            <div *ngIf="this.addFormModel.get('rating')?.errors&&this.addFormModel.get('rating')?.touched">
+                <p class="text-danger text-start">Only Numbers allowed</p>
+            </div>
+            
+            <input formControlName="review" type="text" class="form-control mb-3" placeholder="Review" id="p8"  name="pn8">
+            <!-- reminder -->
+            <div *ngIf="this.addFormModel.get('review')?.errors&&this.addFormModel.get('review')?.touched">
+                <p class="text-danger text-start">Only Numbers Allowed</p>
+            </div>
+
+            <input formControlName="is_availiable" type="text" class="form-control mb-3" placeholder="Is Available" id="p10"  name="pn10">
+            <!-- reminder -->
+            <div *ngIf="this.addFormModel.get('is_availiable')?.errors&&this.addFormModel.get('is_availiable')?.touched">
+                <p class="text-danger text-start">Only Charcters</p>
+            </div>
+
+            <!-- butoon -->
+
+            <button  type="submit" class="btn btn-outline-success mb-3">Add product</button>
+
+        </form>
+
+    </div>
+
+
+
+</div>
